@@ -2,15 +2,20 @@
 Written according to Zabbix official documentation <https://www.zabbix.com/documentation/current/manual/modules>
 
 A Zabbix module to replaces 'Z' in favicon and in main menu when it is in compact mode.
+
 The look without the module:
+
 ![screenshot](screenshots/screenshot-before.png)
 
 The look with the module installed and activated:
+
 ![screenshot](screenshots/screenshot-after.png)
 
 # How to use
 1.a. Create a folder in your Zabbix server modules folder (by default /usr/share/zabbix/modules) and copy contents of this repository into that folder.
-OR
+
+*** OR ***
+
 1.b. As root execute following command from your Zabbix server modules folder (by default /usr/share/zabbix/modules:
 ```
 echo 'H4sIAAAAAAAAA+1YX2gcRRjfxJz1tgaFaogiOFmke4fdu9vL3a1cemnSpDbRtsS2LynRZG9v7nZ7
