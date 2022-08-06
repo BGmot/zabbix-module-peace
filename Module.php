@@ -7,6 +7,7 @@ use CController as CAction;
 use APP;
 
 class Module extends CModule {
+
 	public function onTerminate(CAction $action): void {
 		$action_page = $action->getAction();
 		$router = clone APP::Component()->get('router');
@@ -21,7 +22,11 @@ class Module extends CModule {
 					'  height: 24px;',
 					'  background: url("modules/zabbix-module-peace/assets/ukrainian-flag-24x24.png") no-repeat}',
 				     '</style>';
-				echo '<link rel="icon" href="modules/zabbix-module-peace/assets/favicon_uf.ico">';
+				echo '<script>var links = document.querySelectorAll("link[rel~=\'icon\']");',
+					'for (var i=0; i < links.length; i++) {',
+						'links[i].href = \'modules/zabbix-module-peace/assets/favicon_uf.ico\';',
+					'}',
+				     '</script>';
 			}
 		}
 	}
