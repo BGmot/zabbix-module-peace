@@ -4,7 +4,7 @@
 	"name": "Stop war!",
 	"author": "Evgeny Yurchenko",
 	"description": "Replaces 'Z' in favicon and in main menu when it is in compact mode.",
-	"version": "1.0",
+	"version": "1.0.1",
 	"namespace": "Peace",
 	"url": "https://github.com/BGmot/zabbix-module-peace"
 }
