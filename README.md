@@ -1,5 +1,5 @@
 # zabbix-module-peace
-Written according to Zabbix official documentation <https://www.zabbix.com/documentation/current/manual/modules>
+Written according to Zabbix official documentation[<https://www.zabbix.com/documentation/current/manual/modules>](https://www.zabbix.com/documentation/current/en/devel/modules/file_structure)
 
 A Zabbix module to replaces 'Z' in favicon and in main menu when it is in compact mode.
 
@@ -12,6 +12,13 @@ The look with the module installed and activated:
 ![screenshot](screenshots/screenshot-after.png)
 
 # How to use
+
+IMPORTANT: pick module version according to Zabbix version:
+|Zabbix version | Module version |
+|:-------------:|:--------------:|
+|    v1.0.1     |    < 6.4       |
+|    v2.0.0     |     6.4        |
+
 1.a. Create a folder in your Zabbix server modules folder (by default /usr/share/zabbix/modules) and copy contents of this repository into that folder.
 
 *** OR ***

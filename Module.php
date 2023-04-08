@@ -6,7 +6,7 @@ use Core\CModule as CModule;
 use CController as CAction;
 use APP;
 
-class Module extends CModule {
+class Module extends \Zabbix\Core\CModule {
 
 	public function onTerminate(CAction $action): void {
 		$action_page = $action->getAction();
