@@ -1,5 +1,5 @@
 # zabbix-module-peace
-Written according to Zabbix official documentation[<https://www.zabbix.com/documentation/current/manual/modules>](https://www.zabbix.com/documentation/current/en/devel/modules/file_structure)
+Written according to Zabbix official documentation [Modules](https://www.zabbix.com/documentation/current/en/devel/modules/file_structure)
 
 A Zabbix module to replaces 'Z' in favicon and in main menu when it is in compact mode.
 
